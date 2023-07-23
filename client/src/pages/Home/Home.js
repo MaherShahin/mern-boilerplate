@@ -14,10 +14,10 @@ const ReseedMessage = ({ handleReseed }) => {
   return (
     <div>
       <span style={{ marginRight: '10px' }}>
-        If the app has been vandalized just reseed the database by clicking this button
+        If the app has been vandalized just reseed the database by clicking this button - test changes
       </span>
       <button onClick={handleReseed} className="btn reseed-btn">
-        Reseed Database
+        Reseed Database now
       </button>
     </div>
   );
